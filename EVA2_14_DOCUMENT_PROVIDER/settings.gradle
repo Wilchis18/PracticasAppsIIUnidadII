@@ -1,0 +1,2 @@
+rootProject.name='EVA2_14_DOCUMENT_PROVIDER'
+include ':app'

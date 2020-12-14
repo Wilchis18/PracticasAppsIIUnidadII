@@ -1,0 +1,2 @@
+rootProject.name='EVA2_16_MySQLite2'
+include ':app'

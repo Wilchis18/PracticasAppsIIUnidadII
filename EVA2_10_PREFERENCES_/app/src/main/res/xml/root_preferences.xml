@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/ENTRADAS"
+        android:entryValues="@array/SALIDAS"
+        android:key="dia_semana"
+        android:title="Dias de la semana" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="dia_laborar"
+        android:title="Es dia laboral?" />
+    <EditTextPreference
+        android:defaultValue="Default value"
+        android:key="nombre"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Tu nombre" />
+    <PreferenceCategory android:title="Mis Preferencias">
+
+    </PreferenceCategory>
+</PreferenceScreen>
